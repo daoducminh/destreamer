@@ -9,3 +9,6 @@ node_modules
 videos
 release
 build
+
+.vscode/
+package-lock.json

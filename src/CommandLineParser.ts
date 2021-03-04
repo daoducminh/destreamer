@@ -47,7 +47,7 @@ export const argv: any = yargs.options({
         describe: 'Let Chromium cache identity provider cookies so you can use "Remember me" during login.\n' +
                   'Must be used every subsequent time you launch Destreamer if you want to log in automatically.',
         type: 'boolean',
-        default: false,
+        default: true,
         demandOption: false
     },
     noExperiments: {
@@ -100,7 +100,7 @@ export const argv: any = yargs.options({
     format: {
         describe: 'Output container format (mkv, mp4, mov, anything that FFmpeg supports).',
         type: 'string',
-        default: 'mkv',
+        default: 'mp4',
         demandOption: false
     },
     skip: {
